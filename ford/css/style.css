@@ -1,0 +1,282 @@
+* {
+	margin:0;
+	padding:0
+}
+/*
+	ford lt blue: #30a8e7
+	orange: #f15d22;
+	bluegrey: #425968 slide header
+*/
+body {
+	background:#000000 url("../img/shell/blacktop.png") repeat left top;
+	font-family: 'arsenal', Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:100%;
+	color:#000000;
+	-ms-user-select: none;
+	touch-action: none;
+	overflow:hidden;
+}
+div {
+	position:relative
+}
+a, a:link, a:visited {
+	color:#f15d22;
+	text-decoration:none
+}
+.clearfix:before, .clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	overflow:hidden
+}
+.clearfix:after {
+	clear:both
+}
+.clearfix {
+	zoom:1
+}
+
+#wrapper {
+	width:1024px;
+	margin: auto;
+	height:580px;
+	overflow:hidden
+}
+#wrapper #content {
+	width:100%;
+	height:100%;
+	position:relative;
+	top:0;
+	margin:0;
+	-webkit-transition-duration: 500ms;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+#wrapper #content .page {
+	position:relative;
+	float:left;
+	height:644px;
+	overflow:hidden
+}
+#wrapper #content .pagecontent {
+	position:relative;
+	/*top:82px;*/
+	left:0;
+	height:100%;
+	width:100%
+}
+
+
+
+/*
+*
+* Slide specific css
+**/
+
+
+
+.slideholder {
+	position: relative;
+	width:100%;
+	background:transparent url(../img/shell/back_whitesq.png) repeat;
+	/*z-index: -10;*/
+}
+.slideheader {
+	background-image:url(../img/shell/slideheader_arrows.png);
+	background-repeat:no-repeat;
+	/*background-position: 600px 0;*/
+		background-position: -1200px 0;
+	height:50px;
+	margin: 20px 0;
+	overflow: visible;
+}
+.slideContentBottom {
+	margin:0;
+	position: relative;
+	height: 65px;
+	width: 100%;
+	overflow:visible;
+}
+.slideheadertext {
+	/*
+	height: 42px;
+	padding: 4px 10px 4px 35px;
+	*/
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 35px;
+	padding-right:10px;
+	width: 550px;
+	vertical-align:middle;
+	text-align: left;
+	font-size: 150%;
+	line-height: 100%;
+	/*
+	font-size: 24pt;
+	line-height: 24pt;
+	*/
+	font-weight:bold;
+	color: #425968;
+}
+.slidecontent {
+	/*margin-top: 10px;*/
+	background-color: transparent;
+}
+
+
+#s1001 .slidecontent {
+	display: inline-block;
+}
+#s1001 .colLeft {
+	display: inline-block;
+	/*background: url("../img/mod01/s1001_graph.png") no-repeat;*/
+	width: 440px;
+	height: 465px;
+}
+#s1001_graph02 {
+		position: absolute;
+}
+#s1001_graph01 {
+		position: absolute;
+}
+#s1001 .colRight {
+	display: inline-block;
+	width: 529px;
+	height: 465px;
+}
+#s1001acar1 {
+	position: absolute;
+	top: 110px;
+	left: 0;
+}
+#s1001acar2 {
+	position: absolute;
+	top: 162px;
+	left: 0;
+}
+#s1001innerL p {
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	width: 70%;
+	font-size: 16pt;
+	line-height: 16pt;
+	text-align: left;
+}
+#s1001text {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100px;
+	width: 100%;
+}
+#s1001text p {
+	position: absolute;
+	left: 10%;
+	top: 0;
+	height: 100px;
+	width: 80%;
+	font-size: 18pt;
+	line-height: 18pt;
+	color: #f15d22;
+	text-align: center;
+}
+#s1001_car1 {
+	position: absolute;
+	left: 0;
+	top: 110px;
+	height: 60px;
+}
+#s1001_car2 {
+	position: absolute;
+	left: 0;
+	top: 170px;
+	height: 60px;
+}
+#s1001_car1a {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#s1001_car1b {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#s1001_car2a {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#s1001_car2b {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#s1001_txt1 {
+	position: absolute;
+	width: 250px;
+	left: 50px;
+	top: 50px;
+}
+#s1001_txtR1 {
+	font-size: 16pt;
+	line-height: 16pt;
+	color: #f15d22;
+	position: absolute;
+	width: 300px;
+	right: 10px;
+	top: 150px;
+}
+#s1001_txtR2 {
+	font-size: 14pt;
+	line-height: 14pt;
+	color: #000000;
+	position: absolute;
+	width: 400px;
+	left: 100px;
+	top: 30px;
+}
+#s1001_txtR3 {
+	font-size: 14pt;
+	line-height: 14pt;
+	color: #000000;
+	position: absolute;
+	width: 400px;
+	right: 10px;
+	top: 240px;
+}
+button#btn1001JW {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+}
+.s1001_carLine {
+	position: absolute;
+	background-color: #f15d22;
+	width: 20px;
+	height: 4px;
+	left: 0;
+	bottom: 0;
+}
+#s1001_carLine1 {
+	position: absolute;
+	/*top: 228px;*/
+	/*width: 139px;*/
+}
+#s1001_carLine2 {
+	position: absolute;
+	/*top: 297px;*/
+	/*width: 436px;*/
+}
+/*
+* Transparent png fix for ie
+*
+**/
+img.img_ie {
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);	 /* IE6 & 7 */
+	zoom: 1;
+}

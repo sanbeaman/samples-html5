@@ -1,0 +1,139 @@
+#s1001 .slidecontent {
+	display: inline-block;
+}
+#s1001 .colLeft {
+	display: inline-block;
+	background: url("mod1/assets/imgs/s1001_graph.png") no-repeat;
+	width: 440px;
+	height: 465px;
+}
+#s1001 .colRight {
+	display: inline-block;
+	width: 529px;
+	height: 465px;
+}
+#s1001acar1 {
+	position: absolute;
+	top: 110px;
+	left: 0;
+}
+#s1001acar2 {
+	position: absolute;
+	top: 162px;
+	left: 0;
+}
+#s1001innerL p {
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	width: 70%;
+	font-size: 16pt;
+	line-height: 16pt;
+	text-align: left;
+}
+#s1001text {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100px;
+	width: 100%;
+}
+#s1001text p {
+	position: absolute;
+	left: 10%;
+	top: 0;
+	height: 100px;
+	width: 80%;
+	font-size: 18pt;
+	line-height: 18pt;
+	color: #f15d22;
+	text-align: center;
+}
+#s1001_car1 {
+	position: absolute;
+	left: 0;
+	top: 110px;
+	height: 60px;
+}
+#s1001_car2 {
+	position: absolute;
+	left: 0;
+	top: 170px;
+	height: 60px;
+}
+#s1001_car1a {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#s1001_car1b {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#s1001_car2a {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#s1001_car2b {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#s1001_txt1 {
+	position: absolute;
+	width: 250px;
+	left: 50px;
+	top: 50px;
+}
+#s1001_txtR1 {
+	font-size: 16pt;
+	line-height: 16pt;
+	color: #f15d22;
+	position: absolute;
+	width: 300px;
+	right: 10px;
+	top: 150px;
+}
+#s1001_txtR2 {
+	font-size: 14pt;
+	line-height: 14pt;
+	color: #000000;
+	position: absolute;
+	width: 400px;
+	left: 100px;
+	top: 30px;
+}
+#s1001_txtR3 {
+	font-size: 14pt;
+	line-height: 14pt;
+	color: #000000;
+	position: absolute;
+	width: 400px;
+	right: 10px;
+	top: 240px;
+}
+button#btn1001JW {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+}
+.s1001_carLine {
+	position: absolute;
+	background-color: #f15d22;
+	width: 20px;
+	height: 4px;
+	left: 0;
+	bottom: 0;
+}
+#s1001_carLine1 {
+	position: absolute;
+	/*top: 228px;*/
+	/*width: 139px;*/
+}
+#s1001_carLine2 {
+	position: absolute;
+	/*top: 297px;*/
+	/*width: 436px;*/
+}
